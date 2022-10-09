@@ -45,6 +45,8 @@ ul, ol {
 .titulo{
     background-color: rgb(197, 164, 116);
     padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .nav{
     background-color: aquamarine;
