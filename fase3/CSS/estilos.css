@@ -50,7 +50,9 @@ ul, ol {
 }
 .nav{
     background-color: aquamarine;
-    padding: 60px;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .content{
     background-color: azure;
