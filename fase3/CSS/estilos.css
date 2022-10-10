@@ -43,13 +43,13 @@ ul, ol {
 }
 
 .titulo{
-    background-color: rgb(197, 164, 116);
+    background-color: aquamarine;
     padding: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .nav{
-    background-color: aquamarine;
+    background-color: rgb(197, 164, 116);
     padding: 40px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -81,4 +81,9 @@ ul, ol {
 .pie_pag{
     background-color: rgb(213, 208, 148);
     padding: 10px;
+}
+.autor{
+    background-color: rgb(147, 210, 138);
+    padding: 10px;
+    margin: auto;
 }
