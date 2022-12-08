@@ -18,14 +18,14 @@ ul, ol {
     font-family: Arial, Helvetica, sans-serif;
 }
 .nav li a{
-    background-color: rgb(160, 244, 244);
+    background-color: #F2E7D5;
     color: black;
     text-decoration: none;
     padding: 10px 15px;
     display:block;
 }
 .nav li a:hover{
-    background-color:rgba(186, 180, 180, 0.277);
+    background-color:rgba(234, 224, 224, 0.287);
 }
 .nav li {
     float:left;
@@ -43,7 +43,8 @@ ul, ol {
 }
 
 .titulo{
-    background-color: #EFF5F5;
+    background-color: #393E46;
+    color: aliceblue;
     padding: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -55,35 +56,35 @@ ul, ol {
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .content{
-    background-color: #EFF5F5;
+    background-color: #6D9886;
     padding: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .articulo1{
-    background-color: rgb(140, 188, 231);
+    background-color: #6D9886;
     padding: 30px;
 }
 .articulo2{
-    background-color: rgb(167, 227, 204);
+    background-color: #6D9886;
     padding: 30px;
 }
 .principal{
-    background-color: #EFF5F5;
+    background-color: #6D9886;
     padding: 10px;
     grid-column: 2/5;
 }
 .lateral{
-    background-color: #344D67;
+    background-color: #F2E7D5;
     padding: 10px;
     grid-column: 1/2;
 }
 .pie_pag{
-    background-color: #D6E4E5;
+    background-color: #F2E7D5;
     padding: 10px;
 }
 .autor{
-    background-color: #678983;
+    background-color: #F7F7F7;
     padding: 10px;
     margin: auto;
 }
