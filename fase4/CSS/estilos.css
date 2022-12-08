@@ -1,0 +1,89 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+.titulo{
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#header {
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul, ol {
+    list-style:none;
+    margin:auto;
+    width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav li a{
+    background-color: azure;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    display:block;
+}
+.nav li a:hover{
+    background-color:rgba(26, 24, 24, 0.197);
+}
+.nav li {
+    float:left;
+}
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:auto;
+}
+.nav li:hover > ul {
+    display: block;
+}
+.nav li ul li {
+    position:relative;
+}
+
+.titulo{
+    background-color: aquamarine;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.nav{
+    background-color: rgb(197, 164, 116);
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.content{
+    background-color: azure;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.articulo1{
+    background-color: rgb(140, 188, 231);
+    padding: 30px;
+}
+.articulo2{
+    background-color: rgb(167, 227, 204);
+    padding: 30px;
+}
+.principal{
+    background-color: rgb(158, 134, 194);
+    padding: 10px;
+    grid-column: 2/5;
+}
+.lateral{
+    background-color: rgb(164, 220, 227);
+    padding: 10px;
+    grid-column: 1/2;
+}
+.pie_pag{
+    background-color: rgb(213, 208, 148);
+    padding: 10px;
+}
+.autor{
+    background-color: rgb(147, 210, 138);
+    padding: 10px;
+    margin: auto;
+}
