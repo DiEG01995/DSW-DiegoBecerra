@@ -8,6 +8,9 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 #header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     margin: auto;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -87,4 +90,20 @@ ul, ol {
     background-color: #F7F7F7;
     padding: 10px;
     margin: auto;
+}
+@media screen and(max-width:600px) {
+    content {
+        flex-direction: column;
+    }
+}
+@media screen and(max-width:320px) {
+    .titulo {
+        flex-direction: column;
+    }
+}
+@media screen and(max-width:320px) {
+    img {
+        margin: auto;
+        width: 50%;
+    }
 }
