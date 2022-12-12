@@ -58,8 +58,7 @@ ul, ol {
     background-color: #393E46;
     color: aliceblue;
     padding: 30px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: flex;
 }
 .nav{
     background-color: #497174;
@@ -140,9 +139,11 @@ ul, ol {
     .articulo1{
         background-color: #6D9886;
         padding: 0px;
+        grid-column: 1/5;
     }
     .articulo2{
         background-color: #6D9886;
         padding: 0px;
+        grid-column: 1/5;
     }
 }
