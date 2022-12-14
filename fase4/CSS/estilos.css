@@ -85,11 +85,14 @@ ul, ol {
     background-color: #6D9886;
     padding: 20px;
     grid-column: 2/5;
+
 }
 .lateral{
     background-color: #F2E7D5;
     padding: 10px;
     grid-column: 1/2;
+    top: -50px;
+    
 }
 .pie_pag{
     background-color: #F2E7D5;
