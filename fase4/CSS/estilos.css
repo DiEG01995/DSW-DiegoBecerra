@@ -131,7 +131,7 @@ ul, ol {
     .principal{
         background-color: #6D9886;
         padding: 10px;
-        grid-column: 1/5;
+        grid-column: 2/5;
     }
     .lateral{
         background-color: #F2E7D5;
